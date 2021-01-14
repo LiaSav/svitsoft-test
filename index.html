@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>svitsoft-test-menu</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header_left">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="images/logo/logo.png" alt="logo"
+            /></a>
+          </div>
+          <div class="lang">
+            <ul class="lang_list">
+              <li><a href="#"></a>UA</li>
+              <li><a href="#"></a>RU</li>
+              <li><a href="#"></a>EN</li>
+            </ul>
+          </div>
+        </div>
+        <div class="header_right">
+          <button onclick="href()" type="button" class="nav_btn">
+            <img src="images/img/header_right.png" alt="header right" />
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="slider-container">
+        <div class="menu">
+          <label for="slide-dot-1">
+            <img src="images/img/left_arrow.png" alt="left arrow"
+          /></label>
+          <label for="slide-dot-2">
+            <img src="images/img/right-arrow.png" alt="right arrow"
+          /></label>
+        </div>
+        <input id="slide-dot-1" type="radio" name="slides" checked />
+        <div class="slide slide-1"></div>
+        <input id="slide-dot-2" type="radio" name="slides" />
+        <div class="slide slide-2"></div>
+        <div class="about_company">
+          <a href="" class="btn"
+            >ПРО КОМПАНІЮ
+            <img src="images/img/line.png" alt="line" class="line" />
+            <img src="images/img/arrow.png" alt="arrow" class="arrow"
+          /></a>
+        </div>
+        <div class="info">
+          <div class="title">Надійний забудовник</div>
+          <div class="subtitle">
+            – это 7 лет успешной работы на украинском рынке. Более 700 квартир
+            уже продано, а в планах компании построить 120 тыс. метров жилой
+            площади.
+          </div>
+        </div>
+        <div class="promotion">
+          <div class="shape">
+            <ul class="pagination">
+              <li><a href="#">01</a></li>
+              <li><a href="#">02</a></li>
+              <li><a href="#">03</a></li>
+              <li><a href="#">04</a></li>
+            </ul>
+            <div class="title">Акційна пропозиція №1</div>
+            <div class="descr">
+              Забудовник – это 5 лет успешной работы на украинском рынке.
+              Успешной работы на украинском рынке.
+            </div>
+          </div>
+          <div class="img_bottom">
+            <img src="images/img/img_bottom.jpg" alt="img bottom" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      function href() {
+        document.location.href = "https://liasav.github.io/svitsoft-test-menu/";
+      }
+    </script>
+  </body>
+</html>

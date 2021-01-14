@@ -1,0 +1,358 @@
+@media (max-width: 574.98px) {
+  header .header .header_left .lang_list,
+  main .slider-container .menu,
+  main .slider-container .promotion .img_bottom {
+    display: none;
+  }
+  header .header {
+    height: 4.625rem;
+  }
+  header .header .header_left {
+    background-color: #fff;
+  }
+  header .header .header_left .logo {
+    background-color: #f7f8fc;
+    margin-left: 1.5rem;
+  }
+  main .slider-container .about_company {
+    top: 50rem;
+    left: 1.5rem;
+  }
+  main .slider-container .about_company .btn {
+    padding: 0.75rem 5px;
+    font-size: 0.875rem;
+  }
+  main .slider-container .about_company .btn:before {
+    height: 3rem;
+  }
+  main .slider-container .about_company .btn .line,
+  main .slider-container .about_company .btn .arrow {
+    padding: 0;
+  }
+  main .slider-container .info {
+    top: 32rem;
+    left: 1.5rem;
+    width: 20.4375rem;
+    height: 15.375rem;
+  }
+  main .slider-container .info .title {
+    margin-top: 2rem;
+    font-size: 1.875rem;
+  }
+  main .slider-container .info .subtitle {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+  }
+  main .slider-container .promotion {
+    top: 0;
+    left: 0;
+    width: 20.4375rem;
+    height: 11.25rem;
+  }
+  main .slider-container .promotion .shape {
+    top: 10.125rem;
+    left: 1.5rem;
+    border-top: 20.4375rem solid #4e254f;
+    border-right: 0 solid transparent;
+    width: 20.4375rem;
+    height: 11.25rem;
+  }
+  main .slider-container .promotion .shape .pagination {
+    margin: 0;
+  }
+  main .slider-container .promotion .shape .pagination a {
+    font-size: 0.875rem;
+  }
+  main .slider-container .promotion .shape .title {
+    margin-top: 2.75rem;
+    font-size: 0.875rem;
+  }
+  main .slider-container .promotion .shape .descr {
+    margin-top: 4.875rem;
+    font-size: 0.875rem;
+  }
+}
+@media (min-width: 375px) and (max-width: 575.98px) {
+  header .header .header_left .lang_list,
+  main .slider-container .menu,
+  main .slider-container .promotion .img_bottom {
+    display: none;
+  }
+  header .header {
+    height: 4.625rem;
+  }
+  header .header .header_left {
+    background-color: #fff;
+  }
+  header .header .header_left .logo {
+    background-color: #f7f8fc;
+    margin-left: 1.5rem;
+  }
+  main .slider-container .about_company {
+    top: 50rem;
+    left: 1.5rem;
+  }
+  main .slider-container .about_company .btn {
+    padding: 0.75rem 5px;
+    font-size: 0.875rem;
+  }
+  main .slider-container .about_company .btn:before {
+    height: 3rem;
+  }
+  main .slider-container .about_company .btn .line,
+  main .slider-container .about_company .btn .arrow {
+    padding: 0;
+  }
+  main .slider-container .info {
+    top: 32rem;
+    left: 1.5rem;
+    width: 20.4375rem;
+    height: 15.375rem;
+  }
+  main .slider-container .info .title {
+    margin-top: 2rem;
+    font-size: 1.875rem;
+  }
+  main .slider-container .info .subtitle {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+  }
+  main .slider-container .promotion {
+    top: 0;
+    left: 0;
+    width: 20.4375rem;
+    height: 11.25rem;
+  }
+  main .slider-container .promotion .shape {
+    top: 10.125rem;
+    left: 1.5rem;
+    border-top: 20.4375rem solid #4e254f;
+    border-right: 0 solid transparent;
+    width: 20.4375rem;
+    height: 11.25rem;
+  }
+  main .slider-container .promotion .shape .pagination {
+    margin: 0;
+  }
+  main .slider-container .promotion .shape .pagination a {
+    font-size: 0.875rem;
+  }
+  main .slider-container .promotion .shape .title {
+    margin-top: 2.75rem;
+    font-size: 0.875rem;
+  }
+  main .slider-container .promotion .shape .descr {
+    margin-top: 4.875rem;
+    font-size: 0.875rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  header .header .header_left .lang_list,
+  main .slider-container .promotion .img_bottom {
+    display: none;
+  }
+  header .header {
+    height: 7.3125rem;
+  }
+  header .header .header_left {
+    background-color: #fff;
+  }
+  header .header .header_left .logo {
+    background-color: #f7f8fc;
+  }
+  main .slider-container .menu {
+    top: 48.5625rem;
+    left: 2rem;
+  }
+  main .slider-container .about_company {
+    top: 19.0625rem;
+    right: 2rem;
+  }
+  main .slider-container .info {
+    top: 23.0625rem;
+    left: 2rem;
+    width: 23.8125rem;
+    height: 21.375rem;
+  }
+  main .slider-container .info .title {
+    margin-top: 3.5rem;
+    font-size: 2.625rem;
+  }
+  main .slider-container .info .subtitle {
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+  }
+  main .slider-container .promotion {
+    width: 22.125rem;
+    height: 12.25rem;
+  }
+  main .slider-container .promotion .shape {
+    right: 0;
+    border-top: 12.25rem solid #4e254f;
+    border-right: 0 solid transparent;
+    width: 22.125rem;
+    height: 12.25rem;
+  }
+  main .slider-container .promotion .shape .pagination {
+    margin-top: 4.5rem;
+  }
+  main .slider-container .promotion .shape .title {
+    font-size: 1.25rem;
+  }
+  main .slider-container .promotion .shape .descr {
+    margin: 9.5rem 1rem 0 0;
+    font-size: 0.875rem;
+  }
+  main .slider-container .promotion .img_bottom {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header .header .header_left .lang_list,
+  main .slider-container .promotion .img_bottom {
+    display: none;
+  }
+  header .header {
+    height: 7.3125rem;
+  }
+  header .header .header_left {
+    background-color: #fff;
+  }
+  header .header .header_left .logo {
+    background-color: #f7f8fc;
+  }
+  main .slider-container .menu {
+    top: 48.5625rem;
+    left: 2rem;
+  }
+  main .slider-container .about_company {
+    top: 19.0625rem;
+    right: 2rem;
+  }
+  main .slider-container .info {
+    top: 23.0625rem;
+    left: 2rem;
+    width: 23.8125rem;
+    height: 21.375rem;
+  }
+  main .slider-container .info .title {
+    margin-top: 2.5rem;
+    font-size: 2.5rem;
+  }
+  main .slider-container .info .subtitle {
+    margin-top: 1rem;
+  }
+  main .slider-container .promotion {
+    width: 22.125rem;
+    height: 12.25rem;
+  }
+  main .slider-container .promotion .shape {
+    right: 0;
+    border-top: 12.25rem solid #4e254f;
+    border-right: 0 solid transparent;
+    width: 22.125rem;
+    height: 12.25rem;
+  }
+  main .slider-container .promotion .shape .pagination {
+    margin-top: 4.5rem;
+  }
+  main .slider-container .promotion .shape .title {
+    font-size: 1.25rem;
+  }
+  main .slider-container .promotion .shape .descr {
+    margin: 9.5rem 1rem 0 0;
+    font-size: 0.875rem;
+  }
+  main .slider-container .promotion .img_bottom {
+    display: none;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  main .slider-container .menu {
+    left: 5rem;
+  }
+  main .slider-container .about_company {
+    right: 5rem;
+  }
+  main .slider-container .info {
+    left: 5rem;
+    width: 30.375rem;
+    height: 22.875rem;
+  }
+  main .slider-container .info .title {
+    font-size: 2.5rem;
+  }
+  main .slider-container .promotion {
+    width: 31.5rem;
+    height: 13.1875rem;
+  }
+  main .slider-container .promotion .shape {
+    right: 10.625rem;
+    border-top: 13.1875rem solid #4e254f;
+    border-right: 1.375rem solid transparent;
+    width: 24.25rem;
+    height: 13.1875rem;
+  }
+  main .slider-container .promotion .shape .title {
+    font-size: 1.25rem;
+  }
+  main .slider-container .promotion .shape .descr {
+    font-size: 0.875rem;
+  }
+  main .slider-container .promotion .img_bottom {
+    width: 12.375rem;
+    height: 13.1875rem;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  main .slider-container .menu {
+    left: 5rem;
+  }
+  main .slider-container .about_company {
+    right: 5rem;
+  }
+  main .slider-container .info {
+    left: 5rem;
+    width: 36.75rem;
+    height: 24.25rem;
+  }
+  main .slider-container .info .title {
+    font-size: 3.125rem;
+  }
+  main .slider-container .promotion {
+    width: 40.75rem;
+    height: 14.125rem;
+  }
+  main .slider-container .promotion .shape {
+    right: 10.625rem;
+    border-top: 14.125rem solid #4e254f;
+    border-right: 2.625rem solid transparent;
+    width: 28.875rem;
+    height: 14.125rem;
+  }
+  main .slider-container .promotion .img_bottom {
+    width: 17rem;
+    height: 14.125rem;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1919.98px) {
+  main .slider-container .info {
+    width: 43.125rem;
+    height: 25.625rem;
+  }
+  main .slider-container .promotion {
+    width: 50rem;
+    height: 15.0625rem;
+  }
+  main .slider-container .promotion .shape {
+    right: 15.875rem;
+    border-top: 15.0625rem solid #4e254f;
+    border-right: 3.875rem solid transparent;
+    width: 33.5rem;
+    height: 15.0625rem;
+  }
+  main .slider-container .promotion .img_bottom {
+    width: 21.625rem;
+    height: 15.0625rem;
+  }
+}

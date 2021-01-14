@@ -1,0 +1,257 @@
+body {
+  font-family: "HelveticaNeueCyr", sans-serif;
+  font-size: 100%;
+  min-width: 375px;
+}
+header {
+  position: relative;
+  height: 6rem;
+}
+header .header {
+  position: fixed;
+  width: 100%;
+  height: 6rem;
+  background-color: #fff;
+  z-index: 3;
+}
+header .header .header_left {
+  display: inline-block;
+  height: 6rem;
+  width: 29.25rem;
+  background-color: #f7f8fc;
+}
+header .header .header_left .logo {
+  display: inline-block;
+  margin-top: 1.5rem;
+  margin-left: 5rem;
+  width: 7.8125rem;
+}
+header .header .header_left .lang {
+  display: inline-block;
+  margin-top: 2rem;
+  margin-left: 2.6875rem;
+  width: 8.1875rem;
+}
+header .header .header_left .lang_list {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-weight: 400;
+  font-size: 0.875rem;
+  text-align: right;
+  color: rgba(78, 37, 79, 0.25);
+}
+header .header .header_left .lang_list li:hover {
+  color: #4e254f;
+}
+header .header .header_right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  display: inline-block;
+  height: 6rem;
+}
+header .header .nav_btn {
+  margin: 1.5rem 2rem 1.5rem 0;
+  border: 0;
+  padding: 0;
+  background: none;
+}
+header .header .nav_btn:focus {
+  outline: none;
+}
+main {
+  position: relative;
+  height: 67.5rem;
+  overflow: hidden;
+}
+main .slider-container {
+  width: 100%;
+  height: 100%;
+}
+main .slider-container .menu {
+  position: absolute;
+  top: 51.5rem;
+  left: 11.25rem;
+  z-index: 3;
+}
+main .slider-container .menu label {
+  cursor: pointer;
+  display: inline-block;
+  width: 2.75rem;
+  height: 4rem;
+  border: 2px solid #fff;
+  -webkit-transform: skew(-25deg);
+  -moz-transform: skew(-25deg);
+  -o-transform: skew(-25deg);
+  transform: skew(-25deg);
+}
+main .slider-container .menu label {
+  margin-left: 0.75rem;
+}
+main .slider-container .menu label img {
+  margin: 1.5rem 0.75rem;
+}
+main .slider-container .menu label:hover,
+main .slider-container .menu label:hover {
+  background-color: #9accc2;
+}
+main .slider-container .slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 2;
+  transition: left 1s 1s;
+}
+[id^="slide"]:checked + .slide {
+  left: 0;
+  z-index: 2;
+  transition: left 1s ease-out;
+}
+main .slider-container .slide-1 {
+  background: url("../images/bg/main_bg.jpg") center center/cover no-repeat;
+}
+main .slider-container .slide-2 {
+  background: url("../images/bg/main_bg.jpg") center center/cover no-repeat;
+}
+main .slider-container .about_company {
+  position: absolute;
+  top: 14.5rem;
+  right: 11.25rem;
+  z-index: 2;
+}
+main .slider-container .about_company .btn {
+  position: relative;
+  padding: 1.25rem 0 1.25rem 2rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+  text-decoration: none;
+  background-color: #4e254f;
+  transition: all 500ms ease;
+}
+main .slider-container .about_company .btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 0;
+  height: 4rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s ease;
+}
+main .slider-container .about_company .btn:hover:before {
+  width: 100%;
+}
+main .slider-container .about_company .btn .line {
+  padding-left: 1rem;
+}
+main .slider-container .about_company .btn .arrow {
+  padding: 0 1.5rem 0 1rem;
+}
+main .slider-container .info {
+  display: inline-block;
+  position: absolute;
+  top: 18.5rem;
+  left: 11.25rem;
+  z-index: 2;
+  width: 49.5rem;
+  height: 27rem;
+  background-color: #9accc2;
+}
+main .slider-container .info .title {
+  margin: 5rem 2.25rem 0 2.5rem;
+  font-weight: 900;
+  font-size: 3.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #4e254f;
+}
+main .slider-container .info .subtitle {
+  margin: 2rem 2rem 0 2.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+  color: #4e254f;
+}
+main .slider-container .promotion {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 59.25rem;
+  height: 16rem;
+  z-index: 2;
+}
+main .slider-container .promotion .shape {
+  position: absolute;
+  bottom: 0;
+  right: 21.125rem;
+  z-index: 3;
+  border-top: 16rem solid #4e254f;
+  border-right: 5.125rem solid transparent;
+  width: 38.125rem;
+  height: 16rem;
+}
+main .slider-container .promotion .shape .pagination {
+  margin: 3.5rem 0 0 0;
+  padding: 0;
+  position: absolute;
+  top: -15.9375rem;
+  left: 3.5rem;
+  z-index: 2;
+  display: flex;
+  justify-self: start;
+  list-style: none;
+}
+main .slider-container .promotion .shape .pagination li {
+  padding-right: 0.875rem;
+}
+main .slider-container .promotion .shape .pagination li:last-child {
+  padding-right: 0;
+}
+main .slider-container .promotion .shape .pagination a {
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.25);
+  text-decoration: none;
+}
+main .slider-container .promotion .shape .pagination a:hover {
+  font-weight: 700;
+  color: #9accc2;
+}
+main .slider-container .promotion .shape .title {
+  margin-top: 6.5rem;
+  position: absolute;
+  top: -15.9375rem;
+  left: 3.5rem;
+  z-index: 2;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #9accc2;
+}
+main .slider-container .promotion .shape .descr {
+  margin-top: 9.5rem;
+  position: absolute;
+  top: -15.9375rem;
+  left: 3.5rem;
+  z-index: 2;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgba(154, 204, 194, 0.75);
+}
+main .slider-container .promotion .img_bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  width: 26.25rem;
+  height: 16rem;
+}
