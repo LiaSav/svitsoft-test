@@ -4,15 +4,32 @@
   main .slider-container .promotion .img_bottom {
     display: none;
   }
+  header .menu {
+    top: 4.625rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
+  }
+  header .menu .menu_item {
+  margin-top: 0;
+}
+  header .menu .menu_item .menu_link {
+    font-size: 1rem;
+  }
+  header .menu .text {
+    margin-top: 3rem;
+    font-size: 0.625rem;
+  }
   header .header {
     height: 4.625rem;
   }
   header .header .header_left {
-    background-color: #fff;
+    padding-left: 3rem;
   }
   header .header .header_left .logo {
-    background-color: #f7f8fc;
-    margin-left: 1.5rem;
+    margin-left: 0;
+  }
+  header .header .header_right .btn_active {
+    margin-top: 0.5rem;
   }
   main .slider-container .about_company {
     top: 50rem;
@@ -78,15 +95,32 @@
   main .slider-container .promotion .img_bottom {
     display: none;
   }
+  header .menu {
+    top: 4.625rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
+  }
+  header .menu .menu_item {
+  margin-top: 0;
+}
+  header .menu .menu_item .menu_link {
+    font-size: 1rem;
+  }
+  header .menu .text {
+    margin-top: 3rem;
+    font-size: 0.625rem;
+  }
   header .header {
     height: 4.625rem;
   }
   header .header .header_left {
-    background-color: #fff;
+    padding-left: 3rem;
   }
   header .header .header_left .logo {
-    background-color: #f7f8fc;
-    margin-left: 1.5rem;
+    margin-left: 0;
+  }
+  header .header .header_right .btn_active {
+    margin-top: 0.5rem;
   }
   main .slider-container .about_company {
     top: 50rem;
@@ -151,14 +185,21 @@
   main .slider-container .promotion .img_bottom {
     display: none;
   }
+  header .menu {
+    padding-top: 2rem;
+    padding-left: 6rem;
+  }
+  header .menu .menu_item {
+  margin-top: 0;
+}
+  header .menu .menu_item .menu_link {
+    font-size: 1rem;
+  }
+  header .menu .text {
+    margin-top: 3rem;
+  }
   header .header {
     height: 7.3125rem;
-  }
-  header .header .header_left {
-    background-color: #fff;
-  }
-  header .header .header_left .logo {
-    background-color: #f7f8fc;
   }
   main .slider-container .menu {
     top: 48.5625rem;
@@ -212,14 +253,21 @@
   main .slider-container .promotion .img_bottom {
     display: none;
   }
+  header .menu {
+    padding-top: 2rem;
+    padding-left: 6rem;
+  }
+  header .menu .menu_item {
+  margin-top: 0;
+}
+  header .menu .menu_item .menu_link {
+    font-size: 1rem;
+  }
+  header .menu .text {
+    margin-top: 3rem;
+  }
   header .header {
     height: 7.3125rem;
-  }
-  header .header .header_left {
-    background-color: #fff;
-  }
-  header .header .header_left .logo {
-    background-color: #f7f8fc;
   }
   main .slider-container .menu {
     top: 48.5625rem;
@@ -268,6 +316,15 @@
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  header .menu {
+    padding-top: 4rem;
+  }
+  header .menu .menu_item .menu_link {
+    font-size: 1.10rem;
+  }
+  header .menu .text {
+    margin-top: 4rem;
+  }
   main .slider-container .menu {
     left: 5rem;
   }
@@ -305,6 +362,15 @@
   }
 }
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+  header .menu {
+    padding-top: 4.5rem;
+  }
+  header .menu .menu_item .menu_link {
+    font-size: 1.10rem;
+  }
+  header .menu .text {
+    margin-top: 4.5rem;
+  }
   main .slider-container .menu {
     left: 5rem;
   }
@@ -336,6 +402,9 @@
   }
 }
 @media (min-width: 1400px) and (max-width: 1919.98px) {
+  header .menu .menu_item .menu_link {
+    font-size: 1.20rem;
+  }
   main .slider-container .info {
     width: 43.125rem;
     height: 25.625rem;
