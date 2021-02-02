@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>svitsoft-test-menu</title>
+    <title>svitsoft-test</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -63,20 +63,18 @@
       </div>
     </header>
     <main>
-      <div class="slider-container">
+      <div class="sliders">
+        <div class="slide active"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
         <div class="menu">
-          <label for="slide-dot-1">
-            <img src="images/img/left_arrow.png" alt="left arrow"
-          /></label>
-          <label for="slide-dot-2">
-            <img src="images/img/right-arrow.png" alt="right arrow"
-          /></label>
+          <button type="button" id="prev">
+            <img src="images/img/left_arrow.png" alt="left arrow" />
+          </button>
+          <button type="button" id="next">
+            <img src="images/img/right-arrow.png" alt="right arrow" />
+          </button>
         </div>
-        <input id="slide-dot-1" type="radio" name="slides" checked />
-        <div class="slide slide-1"></div>
-        <input id="slide-dot-2" type="radio" name="slides" />
-        <div class="slide slide-2"></div>
-
         <div class="about_company">
           <a href="#" class="text">ПРО КОМПАНІЮ</a>
           <span class="line"></span>

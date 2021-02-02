@@ -13,7 +13,7 @@ header .menu {
   right: -100%;
   width: 100%;
   height: 100vh;
-  padding: 6.5rem 0 3.5rem 11rem;
+  padding: 2rem 0 3.5rem 11rem;
   margin: 0;
   background-color: #fff;
   transition: 0.5s all;
@@ -42,7 +42,7 @@ header .menu .menu_item .menu_link:hover {
   color: #4e254f;
 }
 header .menu .text {
-  margin-top: 10rem;
+  margin-top: 4rem;
   font-weight: 400;
   font-size: 0.75rem;
   line-height: 1;
@@ -125,58 +125,58 @@ main {
   height: 67.5rem;
   overflow: hidden;
 }
-main .slider-container {
-  width: 100%;
+main .sliders {
   height: 100%;
 }
-main .slider-container .menu {
+main .sliders .menu {
   position: absolute;
   top: 51.5rem;
   left: 11.25rem;
   z-index: 3;
 }
-main .slider-container .menu label {
-  cursor: pointer;
-  display: inline-block;
-  width: 2.75rem;
-  height: 4rem;
+main .sliders .menu button {
+  outline: #fff;
   border: 2px solid #fff;
+  background-color: inherit;
   -webkit-transform: skew(-25deg);
   -moz-transform: skew(-25deg);
   -o-transform: skew(-25deg);
   transform: skew(-25deg);
 }
-main .slider-container .menu label {
+main .sliders .menu button:last-child {
   margin-left: 0.75rem;
 }
-main .slider-container .menu label img {
+main .sliders .menu button img {
   margin: 1.5rem 0.75rem;
 }
-main .slider-container .menu label:hover,
-main .slider-container .menu label:hover {
+main .sliders .menu button:hover,
+main .sliders .menu button:focus {
   background-color: #9accc2;
 }
-main .slider-container .slide {
+main .slide {
+  position: absolute;
+  left: 0;
+  top: 0;
   width: 100%;
   height: 100%;
-  position: absolute;
-  top: 0;
-  left: 100%;
+  opacity: 0;
   z-index: 2;
-  transition: left 1s 1s;
+  transition: all 2s;
 }
-[id^="slide"]:checked + .slide {
-  left: 0;
-  z-index: 2;
-  transition: left 1s ease-out;
+main .slide.active {
+  opacity: 1;
+  animation-timing-function: ease-in;
 }
-main .slider-container .slide-1 {
+main .slide:nth-of-type(1) {
   background: url("../images/bg/main_bg.jpg") center center/cover no-repeat;
 }
-main .slider-container .slide-2 {
-  background: url("../images/bg/main_bg.jpg") center center/cover no-repeat;
+main .slide:nth-of-type(2) {
+  background: url("../images/bg/main_bg_two.jpg") center center/cover no-repeat;
 }
-main .slider-container .about_company {
+main .slide:nth-of-type(3) {
+  background: url("../images/bg/main_bg_third.jpg") center center/cover no-repeat;
+}
+main .sliders .about_company {
   position: absolute;
   top: 14.5rem;
   right: 11.25rem;
@@ -185,7 +185,7 @@ main .slider-container .about_company {
   background-color: #4e254f;
   z-index: 2;
 }
-main .slider-container .about_company .text {
+main .sliders .about_company .text {
   position: absolute;
   top: 1.25rem;
   left: 2rem;
@@ -196,7 +196,7 @@ main .slider-container .about_company .text {
   text-decoration: none;
   transition: all 500ms ease;
 }
-main .slider-container .about_company:before {
+main .sliders .about_company:before {
   content: "";
   position: absolute;
   top: 0;
@@ -206,10 +206,10 @@ main .slider-container .about_company:before {
   background-color: rgba(255, 255, 255, 0.3);
   transition: all 0.5s ease;
 }
-main .slider-container .about_company:hover:before {
+main .sliders .about_company:hover:before {
   width: 100%;
 }
-main .slider-container .about_company .line {
+main .sliders .about_company .line {
   position: absolute;
   top: 0;
   left: 11.0625rem;
@@ -219,15 +219,15 @@ main .slider-container .about_company .line {
   transform: rotate(15deg);
   background-color: #fff;
 }
-main .slider-container .about_company .arrow {
+main .sliders .about_company .arrow {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
 }
-main .slider-container .about_company .arrow img {
+main .sliders .about_company .arrow img {
   vertical-align: top;
 }
-main .slider-container .info {
+main .sliders .info {
   position: absolute;
   top: 18.5rem;
   left: 11.25rem;
@@ -236,7 +236,7 @@ main .slider-container .info {
   height: 27rem;
   background-color: #9accc2;
 }
-main .slider-container .info .title {
+main .sliders .info .title {
   margin: 5rem 2.25rem 0 2.5rem;
   font-weight: 900;
   font-size: 3.75rem;
@@ -244,7 +244,7 @@ main .slider-container .info .title {
   text-transform: uppercase;
   color: #4e254f;
 }
-main .slider-container .info .subtitle {
+main .sliders .info .subtitle {
   margin: 2rem 2rem 0 2.5rem;
   font-weight: 400;
   font-size: 1rem;
@@ -252,7 +252,7 @@ main .slider-container .info .subtitle {
   text-align: justify;
   color: #4e254f;
 }
-main .slider-container .promotion {
+main .sliders .promotion {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -260,7 +260,7 @@ main .slider-container .promotion {
   height: 16rem;
   z-index: 2;
 }
-main .slider-container .promotion .shape {
+main .sliders .promotion .shape {
   position: absolute;
   bottom: 0;
   right: 21.125rem;
@@ -270,7 +270,7 @@ main .slider-container .promotion .shape {
   width: 38.125rem;
   height: 16rem;
 }
-main .slider-container .promotion .shape .pagination {
+main .sliders .promotion .shape .pagination {
   margin: 3.5rem 0 0 0;
   padding: 0;
   position: absolute;
@@ -281,23 +281,23 @@ main .slider-container .promotion .shape .pagination {
   justify-self: start;
   list-style: none;
 }
-main .slider-container .promotion .shape .pagination li {
+main .sliders .promotion .shape .pagination li {
   padding-right: 0.875rem;
 }
-main .slider-container .promotion .shape .pagination li:last-child {
+main .sliders .promotion .shape .pagination li:last-child {
   padding-right: 0;
 }
-main .slider-container .promotion .shape .pagination a {
+main .sliders .promotion .shape .pagination a {
   font-weight: 400;
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.25);
   text-decoration: none;
 }
-main .slider-container .promotion .shape .pagination a:hover {
+main .sliders .promotion .shape .pagination a:hover {
   font-weight: 700;
   color: #9accc2;
 }
-main .slider-container .promotion .shape .title {
+main .sliders .promotion .shape .title {
   margin-top: 6.5rem;
   position: absolute;
   top: -15.9375rem;
@@ -307,7 +307,7 @@ main .slider-container .promotion .shape .title {
   font-size: 1.5rem;
   color: #9accc2;
 }
-main .slider-container .promotion .shape .descr {
+main .sliders .promotion .shape .descr {
   margin-top: 9.5rem;
   position: absolute;
   top: -15.9375rem;
@@ -318,7 +318,7 @@ main .slider-container .promotion .shape .descr {
   line-height: 1.5;
   color: rgba(154, 204, 194, 0.75);
 }
-main .slider-container .promotion .img_bottom {
+main .sliders .promotion .img_bottom {
   position: absolute;
   bottom: 0;
   right: 0;
